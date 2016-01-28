@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		36150D5F1C5AC68C0019DEDB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36150D5E1C5AC68C0019DEDB /* AppDelegate.swift */; };
-		36150D611C5AC68C0019DEDB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36150D601C5AC68C0019DEDB /* ViewController.swift */; };
 		36150D641C5AC68C0019DEDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36150D621C5AC68C0019DEDB /* Main.storyboard */; };
 		36150D661C5AC68C0019DEDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36150D651C5AC68C0019DEDB /* Assets.xcassets */; };
 		36150D691C5AC68C0019DEDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36150D671C5AC68C0019DEDB /* LaunchScreen.storyboard */; };
+		36150D711C5AC73D0019DEDB /* DragonTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36150D701C5AC73D0019DEDB /* DragonTableViewController.swift */; };
+		36150D731C5AC76A0019DEDB /* Dragon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36150D721C5AC76A0019DEDB /* Dragon.swift */; };
+		36150D751C5AD0140019DEDB /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36150D741C5AD0140019DEDB /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		36150D5B1C5AC68C0019DEDB /* DragonFashionSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DragonFashionSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36150D5E1C5AC68C0019DEDB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		36150D601C5AC68C0019DEDB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		36150D631C5AC68C0019DEDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		36150D651C5AC68C0019DEDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		36150D681C5AC68C0019DEDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		36150D6A1C5AC68C0019DEDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36150D701C5AC73D0019DEDB /* DragonTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DragonTableViewController.swift; path = ../DragonTableViewController.swift; sourceTree = "<group>"; };
+		36150D721C5AC76A0019DEDB /* Dragon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Dragon.swift; path = ../Dragon.swift; sourceTree = "<group>"; };
+		36150D741C5AD0140019DEDB /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +58,10 @@
 		36150D5D1C5AC68C0019DEDB /* DragonFashionSwift */ = {
 			isa = PBXGroup;
 			children = (
+				36150D701C5AC73D0019DEDB /* DragonTableViewController.swift */,
+				36150D741C5AD0140019DEDB /* DetailViewController.swift */,
+				36150D721C5AC76A0019DEDB /* Dragon.swift */,
 				36150D5E1C5AC68C0019DEDB /* AppDelegate.swift */,
-				36150D601C5AC68C0019DEDB /* ViewController.swift */,
 				36150D621C5AC68C0019DEDB /* Main.storyboard */,
 				36150D651C5AC68C0019DEDB /* Assets.xcassets */,
 				36150D671C5AC68C0019DEDB /* LaunchScreen.storyboard */,
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36150D611C5AC68C0019DEDB /* ViewController.swift in Sources */,
+				36150D711C5AC73D0019DEDB /* DragonTableViewController.swift in Sources */,
 				36150D5F1C5AC68C0019DEDB /* AppDelegate.swift in Sources */,
+				36150D731C5AC76A0019DEDB /* Dragon.swift in Sources */,
+				36150D751C5AD0140019DEDB /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
